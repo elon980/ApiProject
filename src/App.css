@@ -36,3 +36,125 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+.menu {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.menu-link:hover {
+  color: #007bff;
+}
+
+
+/* קובץ הסגנון */
+
+/* עיצוב כללי */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* לבן */
+  color: #000000; /* שחור */
+}
+
+/* כותרות */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000; /* שחור */
+}
+
+/* תפריט */
+nav {
+  background-color: #f0f0f0; /* אפור בהיר */
+  padding: 10px;
+}
+
+
+
+nav a {
+  color: #0000ff; /* כחול */
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* לינקים */
+a {
+  color: #0000ff; /* כחול */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff0000; /* אדום */
+}
+
+/* כפתורים */
+button, input[type="submit"] {
+  background-color: #0000ff; /* כחול */
+  color: #ffffff; /* לבן */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #000080; /* כחול כהה */
+}
+
+/* טבלאות */
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #cccccc; /* אפור בהיר */
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0; /* אפור בהיר */
+}
+
+/* טופס */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], select {
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc; /* אפור בהיר */
+}
+
+/* תמונות */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* רשימות */
+ul {
+  list-style-type: none;
+}
+
+/* כותרות ברשימות */
+ul > li::before {
+  content: "•";
+  margin-right: 10px;
+}
+
